@@ -9,11 +9,13 @@
   <body>
     <main class="container">
       <h1>{{HEADING}}</h1>
-      <p class="lead">GitHub Actions と GitHub Pages を使った CI/CD 学習用アプリです。</p>
+      <p class="lead">GitHub Actions・GitHub Pages・Pull Request を使った共同編集学習用アプリです。</p>
 
       <section class="card">
-        <h2>今日のメッセージ</h2>
-        <p id="message">{{MESSAGE}}</p>
+        <h2>Group Messages</h2>
+        <ul class="message-list">
+          {{MESSAGE_LIST}}
+        </ul>
       </section>
 
       <section class="card">
