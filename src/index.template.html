@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{TITLE}}</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>{{HEADING}}</h1>
+      <p class="lead">GitHub Actions と GitHub Pages を使った CI/CD 学習用アプリです。</p>
+
+      <section class="card">
+        <h2>今日のメッセージ</h2>
+        <p id="message">{{MESSAGE}}</p>
+      </section>
+
+      <section class="card">
+        <h2>Build Information</h2>
+        <ul>
+          <li><strong>Built at:</strong> {{BUILT_AT}}</li>
+          <li><strong>Commit SHA:</strong> {{COMMIT_SHA}}</li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

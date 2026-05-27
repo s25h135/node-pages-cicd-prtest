@@ -1,0 +1,19 @@
+{
+  "name": "node-pages-cicd-sample",
+  "version": "1.0.0",
+  "description": "A simple Node.js web app for learning GitHub Actions and GitHub Pages CI/CD.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test"
+  },
+  "keywords": [
+    "github-actions",
+    "github-pages",
+    "ci",
+    "cd",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT"
+}
