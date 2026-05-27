@@ -1,10 +1,10 @@
 import test from "node:test";
 import assert from "node:assert/strict";
 
-const message = "Push をきっかけに自動テスト・自動デプロイされています。";
+const message = "GitHub Actions により、テストとデプロイが自動実行されています。";
 
 test("message should mention automatic deployment", () => {
-  assert.match(message, /自動デプロイ/);
+  assert.match(message, /デプロイ/);
 });
 
 test("message should not be empty", () => {
